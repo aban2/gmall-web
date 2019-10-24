@@ -1,24 +1,27 @@
 <html>
     <head>
-        <title>home</title>
+        <title>GMall Login</title>
     </head>
     <link rel="stylesheet" type="text/css" href="css/genyu.css">
-    <jsp:include flush="true" page="head.jsp"></jsp:include>
+
+    <div class="dtop">
+        <p style="left:90%">welcome, idiot</p>
+    </div>
 
     <div class="dleft">
     </div>
 
     <div class="dright">
-        <body text="#0ff">
+        <body text="#979">
             <p align="center"><font size ="10">welcome</font></p>
             <br/>
             <p align="center"><font size ="5">
-            <form role="form" method="post" action="Login">
+            <form method="post" action="LOGIN?type=login">
                 <table>
-                    <tr><td>userId</td><td><input type="text" name="username"></td></tr>
-                    <tr><td>password</td><td><input type="password" name="password"></td></tr>
-                    <tr><td></td><td align="center"><input type="submit" value="submit">
-                            <input type="button" value="return" onclick="javascrtpt:window.location.href='index.jsp'"></td><tr>
+                    <tr><td>UserId</td><td><input type="text" name="username"></td></tr>
+                    <tr><td>password</td><td><input type="text" name="password"></td></tr>
+                    <tr><td></td><td align="center"><input type="submit" value="Login">
+                            <input type="button" value="return" onclick="javascrtpt:window.location.href='index.jsp'"></td></tr>
                 </table>
             </form>
             </font>
