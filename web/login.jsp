@@ -19,7 +19,7 @@
             <form method="post" action="LOGIN?type=login">
                 <table>
                     <tr><td>UserId</td><td><input type="text" name="username"></td></tr>
-                    <tr><td>password</td><td><input type="text" name="password"></td></tr>
+                    <tr><td>password</td><td><input type="password" name="password"></td></tr>
                     <tr><td></td><td align="center"><input type="submit" value="Login">
                             <input type="button" value="return" onclick="javascrtpt:window.location.href='index.jsp'"></td></tr>
                 </table>

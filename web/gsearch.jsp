@@ -16,6 +16,8 @@
             <p>&72.99</p>
             
             <%
+                int a = 2;
+                
                 String[] name = new String[5];
                 String[] image = new String[5];
                 String[] price = new String[5];
