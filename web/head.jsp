@@ -19,12 +19,6 @@
     }
 %>
 
-<script type='text/javascript'>
-    function logout() {
-        <%session.setAttribute("isLogin", false);%>
-    }
-</script>
-
 <html>
     <head>
         <title>home</title>
