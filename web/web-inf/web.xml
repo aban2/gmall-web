@@ -8,4 +8,18 @@
         <servlet-name>searchServlet</servlet-name>
         <url-pattern>/search</url-pattern>
     </servlet-mapping>
+
+<servlet>
+        <servlet-name>userManager</servlet-name>
+        <servlet-class>gmall.controller.UserManagementServlet</servlet-class>
+    </servlet>
+<servlet-mapping>
+        <servlet-name>userManager</servlet-name>
+        <url-pattern>/LOGIN</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+        <servlet-name>userManager</servlet-name>
+        <url-pattern>/SIGNUP</url-pattern>
+</servlet-mapping>
+
 </web-app>
