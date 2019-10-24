@@ -3,17 +3,18 @@
         <title>gsearch</title>
     </head>
     <link rel="stylesheet" type="text/css" href="css/genyu.css">
-    
-    <div class="dtop">
-    </div>
+    <jsp:include flush="true" page="head.jsp"></jsp:include>
     
     <div class="dleft">
     </div>
     
     <div class="dright">
-<!--        <p style="top:50%;height:50%">string2</p> 
-        -->
+
         <div class="item">
+            <img src="311images/5.png" style="width:100%;height:60%" />
+            <p>men''s white regular fit shirt</p>
+            <p>&72.99</p>
+            
             <%
                 String[] name = new String[5];
                 String[] image = new String[5];
@@ -28,6 +29,7 @@
                 }
               
             %>
+            
             <img src=<%=image[0]%> style="width:100%;height:60%" />
             <p><%=name[0]%></p>
             <p><%=price[0]%></p>
@@ -48,7 +50,7 @@
             <p><%=name[4]%></p>
             <p><%=price[4]%></p>
             <p><%=star[4]%></p>
-        </div>
+        </div> 
         
     </div>
     
